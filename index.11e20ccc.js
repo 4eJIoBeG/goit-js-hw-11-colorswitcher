@@ -1,0 +1,2 @@
+var e=["#FF3FFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"];const t=document.querySelector('[data-action="start"]'),a=document.querySelector('[data-action="stop"]'),d=document.querySelector("body");let l=null;const o=()=>{var t,a;d.style.backgroundColor=e[(t=0,a=e.length,Math.floor(Math.random()*(a-t+1)+t))]};t.addEventListener("click",(()=>{t.disabled=!0,a.disabled=!1,l=setInterval(o,1e3)})),a.addEventListener("click",(()=>{t.disabled=!1,a.disabled=!0,clearInterval(l)}));
+//# sourceMappingURL=index.11e20ccc.js.map

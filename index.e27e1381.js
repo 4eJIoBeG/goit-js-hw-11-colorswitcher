@@ -1,0 +1,2 @@
+!function(){var e=["#FF3FFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"],t=document.querySelector('[data-action="start"]'),n=document.querySelector('[data-action="stop"]'),a=document.querySelector("body"),d=null,o=function(){var t,n;a.style.backgroundColor=e[(t=0,n=e.length,Math.floor(Math.random()*(n-t+1)+t))]};t.addEventListener("click",(function(){t.disabled=!0,n.disabled=!1,d=setInterval(o,1e3)})),n.addEventListener("click",(function(){t.disabled=!1,n.disabled=!0,clearInterval(d)}))}();
+//# sourceMappingURL=index.e27e1381.js.map
